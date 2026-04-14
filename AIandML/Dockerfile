@@ -10,7 +10,7 @@ COPY . .
 # Build the project
 RUN ./mvnw clean package -DskipTests
 
-# Expose port
+
 EXPOSE 8080
 
 # Run the jar
